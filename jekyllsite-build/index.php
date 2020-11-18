@@ -29,7 +29,6 @@
 
         <!-- Logo -->
             <h1><a href="/">Adventure Time!</a></h1>
-            <h2><a href="/">(node.name)</a></h2>
             <?php
             $hn=gethostname();
             echo "<h2>".$hn."</h2>";
