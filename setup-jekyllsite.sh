@@ -3,9 +3,9 @@
 # Installation Process for CentOS
 
 # Installs Apache, PHP and Dependencies
-yum update -y
-yum install httpd php sed -y
-yum install php-{bcmath,bz2,cli,common,dba,devel,intl,gd,mbstring,mysql,zip} && sudo apt-get install libapache2-mod-php -y
+#yum update -y
+yum install httpd php -y
+#yum install php-{bcmath,bz2,cli,common,dba,devel,intl,gd,mbstring,mysql,zip} && sudo apt-get install libapache2-mod-php -y
 
 systemctl enable httpd.service
 systemctl restart httpd.service
